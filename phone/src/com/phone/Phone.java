@@ -8,7 +8,7 @@ public abstract class Phone {
 	public Phone(String versionNumber, int batteryPercentage, String carrier, String ringTone) {
 		this.versionNumber = versionNumber;
 		this.batteryPercentage = batteryPercentage;
-		this.carrier = batteryPercentage;
+		this.carrier = carrier;
 		this.ringTone = ringTone;
 	}
 	public abstract void displayInfo();
